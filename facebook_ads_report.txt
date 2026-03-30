@@ -1,0 +1,1585 @@
+====================================================================================================
+FACEBOOK ADS LIBRARY - SCRAPING REPORT (WITH SOCIAL FOLLOWING)
+====================================================================================================
+
+Total Ads: 50
+Scraped: 2026-03-30 02:12:27
+With Library ID: 50
+With Images: 24
+With URL: 44
+With Facebook Followers: 41
+With Instagram Followers: 42
+
+====================================================================================================
+
+
+====================================================================================================
+AD #1
+====================================================================================================
+
+Library ID: 2188656625022558
+Page: MrBeast
+
+--- SOCIAL FOLLOWING ---
+Facebook: @mrbeast - 38,900,000 followers
+Instagram: @mrbeast - 85,400,000 followers
+Category: Reel creator
+------------------------
+
+Date: Nov 7, 2025
+Platforms: Facebook
+CTA: 
+Destination URL: 
+Display URL: 
+Impressions: 
+Images: 0
+Links: 1
+
+Ad Creative:
+Answer The Call, Win $10,000
+38,870,781 people like this
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #2
+====================================================================================================
+
+Library ID: 1199708821680762
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Apr 2, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: https://luckyfours.com/products/chronometer
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+BUY 1 GET 1 FREE + FREE SHIPPING 🎁 #1 Rated Affordable Luxury Watches 🔥
+Get ready for a steal!
+☑️ 316L Stainless Steel
+☑️ Free Shipping Worldwide!
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #3
+====================================================================================================
+
+Library ID: 780360537893837
+Page: AMAZON.COM
+Armitron Adventure Men's Easy to Read Day/Date Function Bracelet Watch, 20/5398
+Shop Now
+
+--- SOCIAL FOLLOWING ---
+Facebook: @Amazon - 29,700,000 followers
+Instagram: @amazon - 6,300,000 followers
+Category: Retail company
+------------------------
+
+Date: Jul 24, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.amazon.com/dp/B09C9R2ZH7?smal=en_US&ref_=pfb_spv01_56c07a2a68933e84ff2dba626a19e0bd
+Display URL: AMAZON.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+What time is it? Explore watches on Amazon.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/520229314_1433406791301061_7025709363544166437_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7Bj2PjKZH88Q7kNvwFCZByd&_nc_oc=Adr_CqlgKjwR3AGrIkjDiiW0wW9x3l1DTaMmRZ2yD6IO4LLDEi80O11PJqiOwor9DG8&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfzG9WM4lNsfXNu1N21OdJTNTSOEFXx9vMtkQK-n4zq7xQ&oe=69CFD138 (140x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #4
+====================================================================================================
+
+Library ID: 1633282697278353
+Page: Bulova
+
+--- SOCIAL FOLLOWING ---
+Facebook: @Bulova - 549,100 followers
+Instagram: @bulova - 366,100 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Feb 14, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.bulova.com/us/en/product/43A158.html?redirect=false
+Display URL: BULOVA.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Bulova Watches. Blending iconic styles, sporty functionality, and a dedication to craftsmanship.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/480183565_1428485951472983_801937512322205243_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yNm-r6sBLYgQ7kNvwFp2H2b&_nc_oc=AdrzQgrHaWnp2up9jzKwId-PROEphv_WjSzB1L4_pnCGyz537RXxciEWY1mMeSbK2Mk&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfxTkp707qmNykGVs_oTC85Igk4icGGCFnwGLLRaHM7vtA&oe=69CFE669 (100x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #5
+====================================================================================================
+
+Library ID: 699989982793730
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Nov 21, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+2 Watches. 1 Price. All Style.
+✔ Buy 1 Get 1 Free – Today Only
+✔ 316L Stainless Steel Cases
+✔ Trusted Quartz Movement
+Shop Now → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #6
+====================================================================================================
+
+Library ID: 2636038576742842
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Jan 2, 2026
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+Owning two watches > Financing one
+100+ styles. Buy 1, get 1 free → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #7
+====================================================================================================
+
+Library ID: 1129916112573021
+Page: Whatnot
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Sep 29, 2025
+Platforms: Facebook
+CTA: 
+Destination URL: http://play.google.com/store/apps/details?id=com.whatnot_mobile
+Display URL: 
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+Score deals on collectibles - from LEGO, Funko Pops, Labubus + more!
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #8
+====================================================================================================
+
+Library ID: 1128572302417520
+Page: AMAZON.COM
+Amazon.com
+Shop Now
+
+--- SOCIAL FOLLOWING ---
+Facebook: @Amazon - 29,700,000 followers
+Instagram: @amazon - 6,300,000 followers
+Category: Retail company
+------------------------
+
+Date: Jul 24, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.amazon.com/dp/B000820YD8?smal=en_US&ref_=pfb_spv01_ad30fa2a6c8418d1a094be62400aa8aa
+Display URL: AMAZON.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+What time is it? Explore watches on Amazon.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/522653839_767433115735124_8070849864052942708_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_etGPH4rKLQQ7kNvwE22dC7&_nc_oc=AdqY3XqhJjkrGoFGvi0RPC7nISyCD2xPEyHBzTv_4V0MbMgbz3vQwkBQZBJYTuiWeR8&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfwEAv9LyWeLpRLzb3kk6F4YfS6zze9bqBaz-A8JakwpFw&oe=69CFE97A (140x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #9
+====================================================================================================
+
+Library ID: 1357233862827774
+Page: dxnielbennett
+
+--- SOCIAL FOLLOWING ---
+Facebook: @LinkedIn - 3,400,000 followers
+Instagram: @linkedin - 1,800,000 followers
+Category: Website
+------------------------
+
+Date: Mar 2, 2026
+Platforms: Facebook
+CTA: Learn more
+Destination URL: https://lnkd.in/careerconfidence?src=fb-ad&trk=psm-fb_campid.{{campaign.id}}_asid.{{adset.id}}_crid.{{ad.id}}&mcid=7406426419863506944
+Display URL: LNKD.IN
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+I’m officially an adult and I’m not mad about it thanks to @linkedin #LinkedInPartner
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #10
+====================================================================================================
+
+Library ID: 587387527363062
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Jan 13, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: https://luckyfours.com/collections/products
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+2025 is the year you start dressing like a High STATUS Man. BUY 1 GET 1 FREE + FREE SHIPPING 🎁 #1 Rated Affordable Luxury Watches 🔥
+Get ready for a steal!
+☑️ 316L Stainless Steel
+☑️ Free Shipping Worldwide!
+Shop now and score big at
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #11
+====================================================================================================
+
+Library ID: 998316050589930
+Page: Diamonds East International
+
+--- SOCIAL FOLLOWING ---
+Facebook: @DiamondsEastInternational - 13,100 followers
+Instagram: @diamondseast - 86,000 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Aug 20, 2020
+Platforms: Facebook
+CTA: Get Directions
+Destination URL: 
+Display URL: 
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+With over 500 luxury Watches IN STOCK! All Watches are 100% Authentic. Est 2010 located in Boca Raton Fl. Over 900+ combined Reviews on chrono24, Ebay, Google
+Get Directions To Save!
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/211474843_847295732586234_7335941045055344802_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=U1aY-kBqJj8Q7kNvwEFdHeU&_nc_oc=AdqeCCmVMAdTXAWkFslYX4RwxPJOQ6Lu1hOVHfc4_HxNP_yH43FTw1JICmYPmQuZo_s&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfyGfN-Te_Cw5AMSINK7_ajAkULytL0htiWC3KsGj9kRLg&oe=69CFDA3E (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #12
+====================================================================================================
+
+Library ID: 782553094832764
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Dec 12, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/products/santos
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+LIMITED RETURN → The Santos
+☑️ Premium Stainless Steel
+☑️ Ultra-Reliable Quartz Core
+☑️ Dark Finish. Sleek Appeal.
+Shop → luckyfours.com/products/santos
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #13
+====================================================================================================
+
+Library ID: 1330056938916468
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Nov 11, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/products/oceanus
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+They pay for the name. You pay for the build.
+Same steel, same shine, same craftsmanship — just without the status markup.
+At Lucky Fours, we design watches that look and feel like $10,000 pieces…
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #14
+====================================================================================================
+
+Library ID: 25559465393745855
+Page: Whatnot
+
+--- SOCIAL FOLLOWING ---
+Facebook: @RealWhatnot - 193,400 followers
+Instagram: @whatnot - 875,100 followers
+Category: Shopping & retail
+------------------------
+
+Date: Jan 26, 2026
+Platforms: Facebook
+CTA: Install now
+Destination URL: http://itunes.apple.com/app/id1488269261
+Display URL: ITUNES.APPLE
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+Score deals on collectibles - from Labubus, Funko Pops, LEGO + more!
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #15
+====================================================================================================
+
+Library ID: 1502867754108200
+Page: Jivi antihemophilic factor (recombinant) PEGylated-aucl
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Jan 2, 2026
+Platforms: Facebook
+CTA: 
+Destination URL: 
+Display URL: 
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+To see this content, you need to confirm your age by logging in.
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #16
+====================================================================================================
+
+Library ID: 1105329331463308
+Page: Louis XVI
+
+--- SOCIAL FOLLOWING ---
+Facebook: @louisxviwatches - 359,000 followers
+Instagram: @louisxvi_watches - 161,100 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Jun 20, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.louisxviwatches.com/products/artagnan-595-47-5mm?variant=31574936191023
+Display URL: LOUISXVIWATCHES.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+🌟 Stand out without breaking the bank! LOUIS XVI watches – Your luxury statement at an affordable price! 🌟
+Show the world you’ve got style – without emptying your wallet. Discover the irresistible combination of design, quality, and affordability with LOUIS XVI watches. 💎✨
+💎 Scratch-resistant sapphire crystal
+👑 Limited to 1,000 pieces
+👉 Order now and enjoy!
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/508980908_2308581086224815_1621551145256000453_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Px90DRMroRwQ7kNvwELMhs4&_nc_oc=Ado_wdxs7tpKrykjn1jKEIcI1BoTObawmRg6fIUcSP-ZtOyfLoyzYrj5OMRJu_B51XU&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfwIXRLjUexpXsLAZooXV1BepitS3KEcDw4cHcXxI7oApw&oe=69CFE079 (140x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #17
+====================================================================================================
+
+Library ID: 2024353048295300
+Page: Depop
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Mar 13, 2026
+Platforms: Facebook
+CTA: 
+Destination URL: https://www.depop.com/campaign/sell/?utm_source=Meta&utm_medium=paid advertising&utm_campaign=PAID_MT_US_PRO_ALLP_ALL_UPPERFUNNEL-AWARENESS-REELS-TRT-FY26-H1-DEPOPONOMICS-&utm_term=Paid Social&utm_content=Broad Depoponomics-Circularity
+Display URL: 
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+From cult favorites to one-of-ones - the best style lives on Depop
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #18
+====================================================================================================
+
+Library ID: 753338817037756
+Page: Grailzee
+
+--- SOCIAL FOLLOWING ---
+Facebook: @grailzee - 16,400 followers
+Instagram: @grailzee - 44,500 followers
+Category: Jewelry & Watches Store
+------------------------
+
+Date: Jul 1, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://grailzee.com/products/rolex-datejust-127606
+Display URL: GRAILZEE.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Submit your best offer at Grailzee - The secure auction house for authenticated luxury watches.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/515017867_1692221028149582_7802106637273882541_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qvXX551YpJ0Q7kNvwF4otI2&_nc_oc=AdoNZMlfThv92AQ3lRoDgK2gQoKzXNHyDe93ZEoc-Qyyr_ljrMs6TdH7qkZr0ouskU4&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfweWwIbe4bkdj7zYJMZW6bCegn6FI8JHOgSpAWNpEipsg&oe=69CFF134 (140x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #19
+====================================================================================================
+
+Library ID: 1149472693730328
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Jan 17, 2026
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+Luxury without the ego. Here's what that looks like:
+✓ 316L stainless steel build
+✓ Presidential & sport styles
+✓ Daily wearable durability
+✓ No anxiety, no insurance
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #20
+====================================================================================================
+
+Library ID: 1671162350310275
+Page: Grailzee
+
+--- SOCIAL FOLLOWING ---
+Facebook: @grailzee - 16,400 followers
+Instagram: @grailzee - 44,500 followers
+Category: Jewelry & Watches Store
+------------------------
+
+Date: Jul 22, 2024
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://grailzee.com/products/cartier-tank-w5200025-3167?utm_content=Facebook_UA&utm_source=facebook&variant=41872368205956
+Display URL: GRAILZEE.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Bid on live auctions at Grailzee, the secure auction house for authenticated luxury watches.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/452475449_497219702683932_3021613583332074312_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=srtIGHDKZU8Q7kNvwGNPv3W&_nc_oc=AdqkNdaZCrtG1tiLUNCmUELX5PQqQ1xTi74zxHGLgJyp68hzY0aoWBMYU6pO_9Y7QrU&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_Afw0kKE117Chcsi_b_4o73cYUR019PL7aMTVet7mGgyLoQ&oe=69CFDFD4 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #21
+====================================================================================================
+
+Library ID: 1317320362958265
+Page: EVORA CO
+
+--- SOCIAL FOLLOWING ---
+Facebook: @evoracompany - 1,200 followers
+Instagram: @evoracompany - 42,800 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Oct 20, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.evoracompany.com/products/midnight?utm_content=Facebook_UA&utm_source=facebook&variant=40479584550992
+Display URL: EVORACOMPANY.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Watches that do 1 thing; TELL THE TIME
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/509388879_715348741144264_719316391719628825_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=C_vV-BkZYSYQ7kNvwFXqs-z&_nc_oc=AdojWwxfQZgcH1ij1F7gLrpu-5BAz_RZAkJt6kgwWcygLYe9CZzYRWrRstHZLiLYECg&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_Afxotm78pliVVfLNDEB6UOavkoslLCSKUwCzyTbLQlsaSA&oe=69CFD204 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #22
+====================================================================================================
+
+Library ID: 2319698865151372
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Sep 9, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/products/brone
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+🚨 2 Watches. 1 Price. All Style.
+✔ Buy 1 Get 1 Free – Today Only
+✔ 316L Stainless Steel Cases
+✔ Trusted Quartz Movement
+Shop Now → luckyfours.com/products/brone
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #23
+====================================================================================================
+
+Library ID: 1550457962652949
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Nov 30, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 1
+Links: 3
+
+Ad Creative:
+Cyber Monday Mega Offer: Buy One Watch, Get One FREE.
+Premium quality meets timeless design.
+→ Precision Japanese Movements
+→ Built for Everyday Luxury
+→ Trusted by 1000,000+ Customers Worldwide
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/591964808_1199432858780248_2637748293670850905_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tJrv4ZsiP58Q7kNvwHbmZFd&_nc_oc=AdoN8guUNz_R4jdCCcnly5PmibZCACyN3WkG3ksnolDq46lD2Ft8YwAY8r1MQJVpv98&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfzGNXX22RtM88_L7r9897wKgoMZ8P_EEb1AyYkz6VqN6g&oe=69CFD239 (99x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #24
+====================================================================================================
+
+Library ID: 1277059740730493
+Page: Invicta Stores.
+
+--- SOCIAL FOLLOWING ---
+Facebook: @invictastores - 148,100 followers
+Instagram: @officialinvictastores - 178,300 followers
+Category: Jewelry & Watches Store
+------------------------
+
+Date: Aug 6, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: https://invictastores.com/collections/shopby/jm_correa-invicta_racing-s1_rally-speedway-watches
+Display URL: INVICTASTORES.COM
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+Invicta: Precision-engineered watches inspired by the speed, style, and spirit of the track.Invicta.
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #25
+====================================================================================================
+
+Library ID: 1776711619681188
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Nov 8, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 1
+Links: 3
+
+Ad Creative:
+BOGO is Live: Buy 1 Watch, Get 1 FREE
+✔ Crafted with 316L Stainless Steel
+✔ Smooth Quartz Timekeeping
+✔ Limited Quantities Available
+Shop Now → luckyfours.com/collections/watches
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/577643836_1925594074687723_9024767769815454766_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=El48ft0eRPYQ7kNvwHnh8qk&_nc_oc=Adqjt2Ufs8T7BRNE5sLhrsK0AawmCae13unYioUfP5sg0rb6OHe1LnGE85h62KoLoXo&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_AfzvlMvs7pZ7yMy1S24bfZu6MoGcNUVFedKQC_YklONgAA&oe=69CFEECF (99x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #26
+====================================================================================================
+
+Library ID: 630218773518574
+Page: Vaer Watches
+
+--- SOCIAL FOLLOWING ---
+Facebook: @vaerdesign - 11,500 followers
+Instagram: @vaeradventure - 65,300 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Jun 25, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.vaerwatches.com/products/c5-tactical-field-40mm-usa-solar?_pos=1&_psq=C5 tactical&_ss=e&_v=1.6
+Display URL: 
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Meet Our Best Seller: The C5 Tactical Field. A sleek field watch that houses all of our top of the line assembly features in a tactical format.
+The C5 Tactical Comes Standard With:
+- NEW = the addition of 25 layers of C3 Super-LumiNova for our strongest lume performance yet.
+Get yours before they sell out.
+Free Shipping + Full Warranty
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/510965417_759335706525080_3831300360851415359_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=S_qtd35NxoUQ7kNvwHDGPea&_nc_oc=Adp-Ee8s_-fZ1c7ykSSYV5MRdtV3KdMjquZOxEhuU9g1JFCjFaD_PENnIOHt9zfExJ0&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=_MNaJYI2OXAgAfTMe8B3Ug&_nc_ss=7a389&oh=00_Afx40DW4b3zwOfuKykng6gbP5Z7vmZ177lG5gPz2YNylTA&oe=69CFEEA0 (98x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #27
+====================================================================================================
+
+Library ID: 1412121907159335
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Jan 8, 2026
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+Owning two watches > Financing one
+100+ styles. Buy 1, get 1 free → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #28
+====================================================================================================
+
+Library ID: 4089284664643626
+Page: Carbinox Co.
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Feb 15, 2025
+Platforms: Facebook
+CTA: 
+Destination URL: https://shopcarbinox.com/products/carbinox-blaze
+Display URL: 
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+Your current smartwatch sucks. Get yourself the most durable ever built for 1/3 of the price you paid for yours, plus Lifetime Warranty.
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #29
+====================================================================================================
+
+Library ID: 1401386238261456
+Page: Invicta Stores.
+
+--- SOCIAL FOLLOWING ---
+Facebook: @invictastores - 148,100 followers
+Instagram: @officialinvictastores - 178,300 followers
+Category: Jewelry & Watches Store
+------------------------
+
+Date: Nov 25, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: https://invictastores.com/collections/shopby/jm_correa-invicta_racing-s1_rally-speedway-watches
+Display URL: INVICTASTORES.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Invicta: Precision-engineered watches inspired by the speed, style, and spirit of the track.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/589954268_1356459612798970_1328535364625169559_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NGteClV4kJIQ7kNvwH77yd4&_nc_oc=AdrnXG7qX9j3N0l8skZnlQhyCip28QnhFhIqrbvZaijaV0Xxj_ibN_muKEQFVH45Brk&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_AfwTKRxU0RXyyJ4P9Ko1qryirncvCt_krX-R1iH4WuPyxw&oe=69CFFA5D (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #30
+====================================================================================================
+
+Library ID: 1133305331919748
+Page: Doble Jewellers
+
+--- SOCIAL FOLLOWING ---
+Facebook: @DobleExeter - 4,300 followers
+Instagram: @doblejewellers - 5,100 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Feb 5, 2025
+Platforms: Facebook
+CTA: Sign up
+Destination URL: https://www.doblejewellers.com/
+Display URL: DOBLEJEWELLERS.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Doble Jewellers are Devon's favourite family run jewellers specialising in fine & antique jewellery as well as vintage & seiko watches.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/475896903_500354399758981_5592822951124170594_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZZQ7HZbjcksQ7kNvwEwiUYG&_nc_oc=AdqSpUE_3lgWjMUTKfFPcD9PQWr8rzadfToU3qtObOfAIhebEd7ywm4LLpOB0MXIbt8&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_Afw7t8ioM-aoWCEKmW-4aIZ1Wb5DfUzeHcm9sEnuCGsNzg&oe=69CFFFED (144x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #31
+====================================================================================================
+
+Library ID: 4542161492736976
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Dec 4, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+2 Watches. 1 Price. All Style.
+✔ Buy 1 Get 1 Free – Today Only
+✔ 316L Stainless Steel Cases
+✔ Trusted Quartz Movement
+Shop Now → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #32
+====================================================================================================
+
+Library ID: 1220757466582356
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Dec 19, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+Christmas BOGO Starts Now 🎄🎅🎁 — Buy 1 Watch, Get 1 FREE.
+Luxury timepieces, unbeatable value.
+→ Crafted in 316L Stainless Steel
+→ Designed for Everyday Sophistication
+→ Trusted by 1000,000+ Customers Worldwide
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #33
+====================================================================================================
+
+Library ID: 1345401360719705
+Page: AMAZON.COM
+ADDIESDIVE Watch
+www.amazon.com
+Shop Now
+
+--- SOCIAL FOLLOWING ---
+Facebook: @Amazon - 29,700,000 followers
+Instagram: @amazon - 6,300,000 followers
+Category: Retail company
+------------------------
+
+Date: Dec 22, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.amazon.com/dp/B0DX9RCM6V?ref_=pfb_spv01_17b12d2c0096dfe9ad2e389520587640
+Display URL: AMAZON.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Keep track of time with men's watches from Amazon ⌚️
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/601852634_1201381548041533_5861888542645445400_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PXE408xfWVkQ7kNvwF_VwFi&_nc_oc=Adr_8_Fb_qmB2cihCnJsfyugt05BugLmbf_E2DJVuaLH2jacrTqDhLhoupmx2VPLMYU&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_AfznoxWfJ96EZBz9Qtxf0HJ5qeptMmIORICvBWisrYQo5w&oe=69CFD919 (140x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #34
+====================================================================================================
+
+Library ID: 872902935160113
+Page: TATA CLiQ Luxury
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Nov 11, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://luxury.tatacliq.com/explore/timevallee-cartier?cid=bm:Meta_BrandTraffic_TimeVallee_AG1_Slate1_Male
+Display URL: LUXURY.TATACLIQ
+Impressions: 
+Images: 5
+Links: 6
+
+Ad Creative:
+Pure lines. Precise shapes. Precious details. Discover Cartier’s iconic watch collections—Tank, Santos, Panthère & Ballon Bleu.
+
+Images (5):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/519548888_1057729529399969_7222335286106660058_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Yf-iWV5JE9YQ7kNvwF3EVuI&_nc_oc=Adr0A3mRAV6ZuQ1UtioNg_vJl1f1Frs6VzrkZ8dG74Vxb2P51ZYyCC2Bqv-_39qfMlM&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_AfzuDENZxc_Y0cMBGoSBUUQ2D-ZSbwpXrfcHwsKgA3D2eA&oe=69CFCE4E (175x175)
+  2. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/518322333_762847706243025_2960666699574280566_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MVdG09TWHWwQ7kNvwG1RXgT&_nc_oc=AdpkWLLU3ogGLDmlKh2URevsUwYvP_PTOrjaT7jWe91TS3ABrcQuXIwq-2geiLqs05s&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_AfxoxA1-aq2PCFzrTAyNBrZ-KVhAHrK8cfyWK2-rLSyYbg&oe=69CFF261 (175x175)
+  3. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/518343872_1488554395459854_1928093390865528633_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5I_idXsUalUQ7kNvwFWzcpd&_nc_oc=AdrAPTIsGWbfEnOrC22-zemgM1JLoOB2QqW_MFxjDvgtLdKlp0zextcMGEYuf9zWYwg&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_Afzq3L-7_UB88z4Got3Lsmmx24E2nM_tWUq1sJwWmkF1xw&oe=69D00001 (175x175)
+  4. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/517558247_1109394731044867_749904243750163779_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=K3nPkxG7iZYQ7kNvwFeDJTr&_nc_oc=AdpJLAUgcST18UZ5PMHCI3BAbSBLwhXBnmu5IrfY6ZIXQGZSfXWwyMgyI9woUTynqYQ&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_Afwydxtrlgi0cw7wXQcqw6OmbExBLDVB1Rvkxo7nweyxTA&oe=69CFF2DF (175x175)
+  5. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/518198109_720529440619795_5855638861595503895_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HevnGzTtQgkQ7kNvwFqfzy-&_nc_oc=Adpc8O6Mkg_HeuesJAw2N-RkbNrMM2QhorN7I67eQ0v4z6PbrZHCu2HNfUMuSCDzjK8&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=coBq98TP9ZWgOAfclJhwgw&_nc_ss=7a389&oh=00_AfyIFlIWbQK2VSPH5nOMShRnirmGI89bzScyrrMfVwJWHQ&oe=69CFF367 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #35
+====================================================================================================
+
+Library ID: 2302661546844529
+Page: Agresti
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Dec 19, 2025
+Platforms: Facebook
+CTA: 
+Destination URL: 
+Display URL: 
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Exquisite safes and bespoke furniture, meticulously handcrafted in Florence since 1949. A timeless union of steel and rare woods, envisioned as true works of art to safeguard your most treasured possessions.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/574580047_862649272997424_5030855047026152787_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7I6SX2wJqgEQ7kNvwFYNBcH&_nc_oc=Adrp8eBmE9leCnLy3D7SmNTEjiFcQRRz5NQcdOw9anqDpSQO1z5PdRfoBQXFG7-89tk&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfzcyIagWuh7GCPdPM3ubbtLTT5OzllTdbWgJbN7LzYWWw&oe=69CFCEB4 (140x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #36
+====================================================================================================
+
+Library ID: 672525942281816
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Oct 26, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+🔥 BOGO is Live: Buy 1 Watch, Get 1 FREE
+✔ Crafted with 316L Stainless Steel
+✔ Smooth Quartz Timekeeping
+✔ Limited Quantities Available
+Shop Now → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #37
+====================================================================================================
+
+Library ID: 2424536304659305
+Page: CPAP Direct
+
+--- SOCIAL FOLLOWING ---
+Facebook: @CPAPDirect - 8,500 followers
+Instagram: @cpapdirect - 1,200 followers
+Category: Shopping & retail
+------------------------
+
+Date: Mar 1, 2026
+Platforms: Facebook
+CTA: Get Directions
+Destination URL: https://cpap.com.au/pages/cpap-hervey-bay
+Display URL: 
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Shop during World Sleep Month for your chance to win 1 of 30 incredible prizes in our $6K Slumber Giveaway, exclusive to CPAP Direct.
+Plus, enjoy big savings across a wide range of CPAP gear and receive a FREE mask with every CPAP machine purchase.
+Visit CPAP Direct Hervey Bay, 5 Madsen Road. T&Cs apply.
+Visit CPAP Direct Hervey Bay Today
+Amazing in-store service.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/645315450_2359776464498473_487654364924564667_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Z_8jbxd0_F0Q7kNvwHRRGQj&_nc_oc=Adqi3aQT9EmkR75j4DN1A8gxoFPxjtCd0SIrjXsnB1FCxb-U7nN4aqNcRVz-tD3dFcs&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfzjzuTPuvW8dSFKdx08oYVn5LQ-jg_VMbyfnp4GzmdYVg&oe=69CFE9B6 (99x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #38
+====================================================================================================
+
+Library ID: 1739270063504462
+Page: Swiss Watch Expo
+
+--- SOCIAL FOLLOWING ---
+Facebook: @SwissWatchExpo - 89,100 followers
+Instagram: @swisswatchexpo - 130,000 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Nov 4, 2024
+Platforms: Facebook
+CTA: Shop now
+Destination URL: https://www.swisswatchexpo.com/watches/cartier-ballon-bleu-rose-gold-grey-dial-mens-watch-w6920089-1801x
+Display URL: SWISSWATCHEXPO.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Timeless Elegance, Unrivaled Service. Discover SwissWatchExpo.
+📸 What you see is what you get – authenticity guaranteed.
+🔒 Shop worry-free with our 18-month warranty
+⚡ Same-day shipping on all in-stock watches!
+Explore over 3,000 watches from dozens of brands. Your perfect timepiece awaits. Shop now!
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/465662764_2923962011089025_6324750235763475180_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MZCUt1QsgcEQ7kNvwHicXzE&_nc_oc=AdqosvJkHX00Xb1BsYI8tSDp75viT_OWrUUOK7bTDzeMFhyqaTH4O4a9mFLB_tgoz0U&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfxEopVEMz0uW_8Imj5z1rJkVJCr0s9KErQedOETOMWHLQ&oe=69CFCE65 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #39
+====================================================================================================
+
+Library ID: 1541228010666178
+Page: Watches of Switzerland US
+
+--- SOCIAL FOLLOWING ---
+Facebook: @WatchesOfSwitzerlandUS - 9,000 followers
+Instagram: @watchesofswitzerland_usa - 112,200 followers
+Category: Retail company
+------------------------
+
+Date: Nov 26, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.watchesofswitzerland.com/products/cartier-tank-must-wsta0122-17311589?variant=46352623501556
+Display URL: WATCHESOFSWITZERLAND.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Explore Our Curated Selection of Cartier Timepieces.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/588620952_695960143585323_3269886990113121088_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qMZXzrJWnD0Q7kNvwGNkqD7&_nc_oc=AdqeXCU5JcPkz_pdeMmeteQUJlk9eOo4DgLWlPl5PAZIzKNYbVE-N_0jMHKnhYq-fjw&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_Afz8I5rBgqpFfPqjyW0OZr1ntLPz_ibwlEdpJTU6xftf9Q&oe=69CFD9F8 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #40
+====================================================================================================
+
+Library ID: 200572029813393
+Page: Mazzarese Jewelry
+
+--- SOCIAL FOLLOWING ---
+Facebook: @mazzaresejewelry - 8,100 followers
+Instagram: @mazzaresejewelry - 3,200 followers
+Category: Jewelry & Watches Store
+------------------------
+
+Date: Jan 20, 2024
+Platforms: Facebook
+CTA: Learn More
+Destination URL: https://mazzaresejewelry.com/
+Display URL: MAZZARESEJEWELRY.COM
+Impressions: 
+Images: 4
+Links: 5
+
+Ad Creative:
+We’re a family, like you, and value the power of long-term relationships. We offer the best diamonds, couture jewelry and watches at the best prices, with the high level of service you deserve. #Shoplocal and visit us at Mazzarese Jewelry today!
+
+Images (4):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/420486379_757582502386098_8201276193041245795_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7EOUo8ThKcoQ7kNvwF4Jp0T&_nc_oc=AdrFDAV_AhUU6cktZAWROSfPc08gCS1HxtEG4dyLx1oYkCpwOPi4GgQ_e3cZk9U08Ok&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfxsurH1xeHkQIfyHURf8xRpAzez1L3CdHj6xqNSUF6B6g&oe=69CFD08E (175x175)
+  2. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/420350039_1108875163616992_1039887535382283635_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=P-11yVSr66oQ7kNvwHPowbD&_nc_oc=Adph4SAQ_Q-bdeMcT_vsP0Q9yK65pANLsQKQJMkr6tlKVwJA5PydG4fYjq-YbJPj7hM&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfxHS9cJX5NyuF1ILA6W2epm03_7mOM1uZDykzAmbcExrg&oe=69CFE7BE (175x175)
+  3. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/420490837_1302518943744906_8022438229758914529_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=srjKqWU7AEQQ7kNvwHp2ZJV&_nc_oc=AdoARFvledy82cxfGXffGz7l9H0KJYMk1MDryZHbDYzmXMcFOlHeY66eKd9IhgTzTcc&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfzWZ8_LLAGG2FTIbm76yUkcQFWMiFqelkQA1RBU4cXVeQ&oe=69CFEF96 (175x175)
+  4. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/420047625_320006913727871_3246520558692812061_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4Hsncrv-_P8Q7kNvwEYIg5o&_nc_oc=Adp22KHL_QD1fgGLcDVWsXgOJphSDaZewMcGyZv2aPswZvodAGCxNpwgisZvWm-T01s&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_AfykhrmmpSJY-m_DwnVZ8cXUa9g1y1WLIv4leaW6NrRGGA&oe=69CFFADB (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #41
+====================================================================================================
+
+Library ID: 655676137310302
+Page: Dan Lok
+
+--- SOCIAL FOLLOWING ---
+Facebook: @DanLokOfficial - 2,600,000 followers
+Instagram: @danlok - 1,700,000 followers
+Category: Entrepreneur
+------------------------
+
+Date: May 14, 2025
+Platforms: Facebook
+CTA: 
+Destination URL: 
+Display URL: 
+Impressions: 
+Images: 0
+Links: 1
+
+Ad Creative:
+See what your business needs so it can scale in this live recording from 9-figure CEO Dan Lok.
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #42
+====================================================================================================
+
+Library ID: 767990136299749
+Page: Freestyle Watches
+
+--- SOCIAL FOLLOWING ---
+Facebook: @FreestyleWatch - 116,600 followers
+Instagram: @freestylewatches - 317,100 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Nov 25, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://www.freestyleusa.com/products/luke-davis-signature-shark-classic-clip-white-wave?utm_content=Facebook_UA&utm_source=facebook&variant=16332610961451
+Display URL: FREESTYLEUSA.COM
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+This isn’t just a watch. It’s a vibe. ✨ A water-resistant, sporty accessory that goes where you go—from beach days 🏖️ and city streets 🚀 to late-night hangs 🌙 and weekend hikes 🥾. Made for every plan you didn’t plan and every moment you want to remember.
+Why settle for basic when you can wear something that’s as bold as you are? 🔥
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/588624172_1511838226708552_2091697855295682396_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sFw7CAlYdgQQ7kNvwGWYIS2&_nc_oc=AdoAVYAsQ6IP6_oj4cKqaOeIv2XyXHi4g_65OgIDLhORZ3K0r1SZtQ0Ns86SFatkBFQ&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=qh2pnF6LeVDO1Ux0sd3WmA&_nc_ss=7a389&oh=00_Afx0HaImMJMx4OOIHt6wPRlBZ8WsYtMo6kwTSGolBbk-Pw&oe=69CFE1B2 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #43
+====================================================================================================
+
+Library ID: 987585806741395
+Page: GOVX
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Aug 13, 2025
+Platforms: Facebook
+CTA: 
+Destination URL: http://www.govx.com/
+Display URL: 
+Impressions: 
+Images: 0
+Links: 3
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #44
+====================================================================================================
+
+Library ID: 571331365135434
+Page: Elle Thorpe Books
+
+--- SOCIAL FOLLOWING ---
+Facebook: @ellethorpebooks - 66,500 followers
+Instagram: @ellethorpebooks - 18,000 followers
+Category: Author
+------------------------
+
+Date: May 25, 2023
+Platforms: Facebook
+CTA: Learn more
+Destination URL: https://amzn.to/3WxF4SQ
+Display URL: AMAZON.COM
+Impressions: 
+Images: 1
+Links: 3
+
+Ad Creative:
+“Hurts,” Lacey whispered.
+My stomach rolled at her injuries. I dropped to the sand beside her, wrapping her in my jacket.
+“I know, Princess. Hang on. I got you.”
+Available in ebook, paperback and audio.
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/349075824_1226449474904691_4525547084606463226_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hREqESSb0ocQ7kNvwGiG7Te&_nc_oc=AdqMWcY-sGvZUkuJ-hCEsYw0W4y3ZC3iJkQX14NTkbVn88_P5MhuX1S4nOdMZBW43Bk&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=ecLliX9kiGRmTkUuzyBKBQ&_nc_ss=7a389&oh=00_Afw3eDb0UQ0UTOhRI2gVTBts7ChGTXlpQ1a91CHUmJMkQA&oe=69CFF5DC (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #45
+====================================================================================================
+
+Library ID: 24961055513590315
+Page: Ralph Christian Watches
+
+--- SOCIAL FOLLOWING ---
+Facebook: @RalphChristianWatches - 222,700 followers
+Instagram: @ralphchristianwatches - 313,700 followers
+Category: Jewelry/watches
+------------------------
+
+Date: Dec 2, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: https://ralphchristian.com/products/the-intrepid-sport-aurora-burst
+Display URL: RALPHCHRISTIAN.COM
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+The Best-selling Intrepid Sport - Aurora Burst Is Now Back In Stock 🔥 Hurry, Shop Now Before It's Gone Again ⚡
+🚀 Fast, Free US-Based & Worldwide Shipping
+⚡ 30 Day, Hassle-Free Returns
+⭐ 4.8/5 from 8,000+ Verified Reviews
+🌍 Trusted By Over 125,000 Customers Worldwide
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #46
+====================================================================================================
+
+Library ID: 1890480909015394
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Aug 1, 2025
+Platforms: Facebook
+CTA: Shop Now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+🎁 Back for a Limited Time: BOGO Watches
+✔ Buy Any Watch — Get Another FREE
+✔ Built from 316L Stainless Steel
+✔ Sleek Quartz Movement
+Shop Now → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #47
+====================================================================================================
+
+Library ID: 1072225334222726
+Page: PacWhale Eco-Adventures
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram:  - 0 followers
+Category: 
+------------------------
+
+Date: Nov 6, 2024
+Platforms: Facebook
+CTA: 
+Destination URL: https://www.pacwhale.com/ecotours/?utm_source=facebook&utm_medium=cpc&utm_campaign=evergreen
+Display URL: 
+Impressions: 
+Images: 1
+Links: 2
+
+Ad Creative:
+Maui welcomes you with up to 40% off select ecotours. Are you ready for an unforgettable adventure? Witness the vibrant coral gardens, playful dolphins, majestic whales & more! When the sun begins to dip below the horizon, get ready for a magical sunset like no other. Book an ecotour to make your Maui trip unforgettable.
+Award Winning Eco-Adventures
+
+Images (1):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/465800870_1719741568811681_2285454329078404681_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fiZPQjaio7cQ7kNvwEbk6b-&_nc_oc=Adplo7lZOAUSWKaRM11bb-I_OejHLC5BROBNqm9_AgFBYbCa42G5xTUUVJwHlbSRTsg&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=ecLliX9kiGRmTkUuzyBKBQ&_nc_ss=7a389&oh=00_AfwLltGoT1deVVgszLEFKk5rMWd1xUBgkfNtjGm3EPmK4w&oe=69CFD4F4 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #48
+====================================================================================================
+
+Library ID: 1881720196073411
+Page: Lucky Fours
+
+--- SOCIAL FOLLOWING ---
+Facebook: @luckyfoursco - 19,500 followers
+Instagram: @luckyfours - 271,200 followers
+Category: Jewelry & Watches Company
+------------------------
+
+Date: Oct 8, 2025
+Platforms: Facebook
+CTA: Shop now
+Destination URL: http://luckyfours.com/collections/watches
+Display URL: LUCKYFOURS.COM
+Impressions: 
+Images: 0
+Links: 3
+
+Ad Creative:
+Our best-sellers just RESTOCKED!
+☑️ 316L Stainless Steel
+☑️ Free Shipping Worldwide!
+Shop → luckyfours.com/collections/watches
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #49
+====================================================================================================
+
+Library ID: 1657438861606475
+Page: Atlantic Metals Xchange
+
+--- SOCIAL FOLLOWING ---
+Facebook: @AtlanticMetalsXchange - 774 followers
+Instagram: @atlanticmetalsxchange - 271 followers
+Category: Retail company
+------------------------
+
+Date: May 21, 2025
+Platforms: Facebook
+CTA: Learn More
+Destination URL: https://buyorsell.ncjewelrybrokers.com/buy-or-sell-page
+Display URL: 
+Impressions: 
+Images: 0
+Links: 2
+
+Ad Creative:
+Have you ever wondered what your jewelry is worth?
+If you answered Yes, stop and watch this video now,
+while Gold is near record highs!
+Hi, my name is Matt from Atlantic Metals Xchange here in Charlotte, NC.
+As one of the area's largest suppliers of Gold & Silver bullion, we've built a reputation for our honest and transparent approach to business. Going even a step further we are the only local dealer to post our live buy and sell prices directly on our website.
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+AD #50
+====================================================================================================
+
+Library ID: 2164396571053956
+Page: BODERRY
+
+--- SOCIAL FOLLOWING ---
+Facebook:  - 0 followers
+Instagram: @boderrywatch - 102,300 followers
+Category: More infoCrafted with precision, priced just right - Watches are accessories, but BODERRY is the voice of your personality.
+------------------------
+
+Date: Mar 6, 2026
+Platforms: Instagram
+CTA: Visit Instagram Profile
+Destination URL: 
+Display URL: INSTAGRAM.COM
+Impressions: 
+Images: 2
+Links: 3
+
+Ad Creative:
+The blue Cerakote titanium bracelet is getting ready.
+How do you like this look? 🔵Would you wear it?
+#boderry #voyager  #titaniumwatch  #microbrandwatch  #boderrywatches #watchmen #watches #watchcollector #watchclub #watchfam #時計 #腕時計 #fieldwatch #automaticwatch #boderryvoyager #cerakote #bluewatches
+
+Images (2):
+  1. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/647147026_2136067747212050_6343007566787813220_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hJm1tG6NrjoQ7kNvwFjhd_j&_nc_oc=AdqpzbicGuS8wGxupB7aaNG6iBLGOEnZkC__jXLi2qtXQjcJ34XJKQcq7qZAaz2Zq3g&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=ecLliX9kiGRmTkUuzyBKBQ&_nc_ss=7a389&oh=00_Afyva_XzAKPYkFT-nZONJdvyDhoA1bs2xYYDveqnH9OQvA&oe=69CFF479 (175x175)
+  2. https://scontent-bos5-1.xx.fbcdn.net/v/t39.35426-6/648514050_767449376097702_4153047308044397594_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dUli_sY6SNcQ7kNvwFRU2G5&_nc_oc=AdqtNQPjQMdRq0hM07pPeV5s9crC5mAoF8FB5zZP_LUMNqkrIj36ylGaV5ypd_P8ERM&_nc_zt=14&_nc_ht=scontent-bos5-1.xx&_nc_gid=ecLliX9kiGRmTkUuzyBKBQ&_nc_ss=7a389&oh=00_Afxc9XLabTkOEAI4GkHy-3PnsGNp2U1SRke5S5YAZrO9kQ&oe=69CFEC30 (175x175)
+
+----------------------------------------------------------------------------------------------------
+
