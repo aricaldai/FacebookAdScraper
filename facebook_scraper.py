@@ -1,6 +1,7 @@
 """
 Facebook Ads Library Scraper - FINAL VERSION
 Clicks modal, then expands "About the advertiser" section
++ captures direct Ad Library URL for each ad
 """
 
 from selenium import webdriver
@@ -54,6 +55,33 @@ class FacebookAdsLibraryScraper:
             return int(number * 1000000000)
         else:
             return int(number)
+
+    # ------------------------------------------------------------------ #
+    #  NEW: build or discover the canonical Ads Library URL for one ad    #
+    # ------------------------------------------------------------------ #
+    def extract_ad_library_url(self, library_id, links):
+        """
+        Returns the direct Facebook Ads Library URL for this ad.
+
+        Strategy (in order of preference):
+          1. Look for a link in the ad container that already points to
+             facebook.com/ads/library/?id=<library_id>
+          2. If library_id is known, construct the canonical URL ourselves.
+          3. Fall back to an empty string.
+        """
+        # 1 — check harvested links for an existing direct URL
+        if library_id:
+            for link in links:
+                href = link.get('url', '')
+                if 'facebook.com/ads/library' in href and library_id in href:
+                    return href
+
+        # 2 — construct from library_id
+        if library_id:
+            return f"https://www.facebook.com/ads/library/?id={library_id}"
+
+        # 3 — nothing found
+        return ""
 
     def expand_about_advertiser_section(self):
         try:
@@ -148,7 +176,11 @@ class FacebookAdsLibraryScraper:
         except:
             pass
         try:
-            close_selectors = ["//div[@aria-label='Close']", "//button[@aria-label='Close']", "//*[text()='Close']"]
+            close_selectors = [
+                "//div[@aria-label='Close']",
+                "//button[@aria-label='Close']",
+                "//*[text()='Close']"
+            ]
             for selector in close_selectors:
                 try:
                     close_btn = self.driver.find_element(By.XPATH, selector)
@@ -163,86 +195,71 @@ class FacebookAdsLibraryScraper:
         return False
 
     def extract_social_following_from_page(self):
-        social_data = {'facebook_followers': 0, 'instagram_followers': 0, 'facebook_handle': '', 'instagram_handle': '', 'advertiser_category': ''}
+        social_data = {
+            'facebook_followers': 0,
+            'instagram_followers': 0,
+            'facebook_handle': '',
+            'instagram_handle': '',
+            'advertiser_category': ''
+        }
         try:
             body = self.driver.find_element(By.TAG_NAME, "body")
             full_text = body.text
             print(f"        📄 Analyzing page (length: {len(full_text)} chars)...")
-            
+
             if "About the advertiser" in full_text:
                 about_pos = full_text.find("About the advertiser")
-                sample = full_text[about_pos:about_pos+800]
+                sample = full_text[about_pos:about_pos + 800]
                 print(f"        📝 About section sample:")
                 print(f"{sample}\n")
-            
-            # FIXED: Find ALL instances of @handle + followers (even duplicates)
-            # This captures: @mrbeast\n38.7M followers • Reel creator
-            # AND also:      @mrbeast\n85.3M followers
-            
+
             pattern = r'@(\w+)\s+([\d.,]+[KMB]?)\s+followers\s*[•·]?\s*([^\n@]*?)(?=\n|$)'
             matches = re.finditer(pattern, full_text, re.IGNORECASE | re.MULTILINE)
-            
+
             followers_found = []
             for match in matches:
-                handle = match.group(1)
+                handle    = match.group(1)
                 count_str = match.group(2)
-                category = match.group(3).strip() if match.group(3) else ''
-                count = self.normalize_follower_count(count_str)
-                
-                # Filter out obvious noise (like "1 followers" or "5 followers")
+                category  = match.group(3).strip() if match.group(3) else ''
+                count     = self.normalize_follower_count(count_str)
                 if count < 100:
                     continue
-                
                 print(f"        ✓ Found: @{handle} = {count_str} ({count:,}) | Category: {category[:30]}")
-                followers_found.append({
-                    'handle': f"@{handle}",
-                    'count': count,
-                    'category': category
-                })
-            
-            # Assign: First = Facebook, Second = Instagram (order matters on FB page)
+                followers_found.append({'handle': f"@{handle}", 'count': count, 'category': category})
+
             if len(followers_found) >= 2:
-                # First mention is typically Facebook page
-                social_data['facebook_handle'] = followers_found[0]['handle']
+                social_data['facebook_handle']    = followers_found[0]['handle']
                 social_data['facebook_followers'] = followers_found[0]['count']
                 if followers_found[0]['category']:
                     social_data['advertiser_category'] = followers_found[0]['category']
-                
-                # Second mention is typically Instagram
-                social_data['instagram_handle'] = followers_found[1]['handle']
+                social_data['instagram_handle']    = followers_found[1]['handle']
                 social_data['instagram_followers'] = followers_found[1]['count']
-                
                 print(f"        ✅ Facebook: {followers_found[0]['handle']} ({followers_found[0]['count']:,})")
                 print(f"        ✅ Instagram: {followers_found[1]['handle']} ({followers_found[1]['count']:,})")
-            
+
             elif len(followers_found) == 1:
-                # Only one found - check context or default to Facebook
-                item = followers_found[0]
-                
-                # Check if "Instagram" appears near the handle
+                item       = followers_found[0]
                 handle_pos = full_text.find(item['handle'])
-                context = full_text[max(0, handle_pos-100):handle_pos+200]
-                
+                context    = full_text[max(0, handle_pos - 100):handle_pos + 200]
                 if 'instagram' in context.lower():
-                    social_data['instagram_handle'] = item['handle']
+                    social_data['instagram_handle']    = item['handle']
                     social_data['instagram_followers'] = item['count']
                     print(f"        ℹ️ Single handle found - assigned to Instagram (context)")
                 else:
-                    social_data['facebook_handle'] = item['handle']
+                    social_data['facebook_handle']    = item['handle']
                     social_data['facebook_followers'] = item['count']
                     print(f"        ℹ️ Single handle found - assigned to Facebook (default)")
-                
                 if item['category']:
                     social_data['advertiser_category'] = item['category']
-            
+
             if not followers_found:
                 print(f"        ⚠️  No follower patterns matched")
-        
+
         except Exception as e:
             print(f"        ❌ Error extracting social data: {e}")
             import traceback
             traceback.print_exc()
-        
+
         return social_data
 
     def is_duplicate(self, library_id):
@@ -256,7 +273,7 @@ class FacebookAdsLibraryScraper:
         try:
             if 'l.facebook.com' in url or 'lm.facebook.com' in url:
                 parsed = urlparse(url)
-                params = parse_qs(parsed.query)
+                params  = parse_qs(parsed.query)
                 if 'u' in params:
                     return unquote(params['u'][0])
             return url
@@ -268,18 +285,22 @@ class FacebookAdsLibraryScraper:
         try:
             img_elements = element.find_elements(By.TAG_NAME, "img")
             for img in img_elements:
-                src = img.get_attribute('src') or img.get_attribute('data-src') or img.get_attribute('data-lazy-src')
+                src = (img.get_attribute('src') or
+                       img.get_attribute('data-src') or
+                       img.get_attribute('data-lazy-src'))
                 if src and 'http' in src:
                     if any(x in src.lower() for x in ['emoji', '/static_', 'icon', 'avatar']):
                         continue
                     if any(x in src for x in ['scontent', 'fbcdn', 'external']):
                         try:
-                            width = img.size['width']
+                            width  = img.size['width']
                             height = img.size['height']
                             if width > 40 and height > 40:
-                                images.append({'url': src, 'alt': img.get_attribute('alt') or '', 'width': width, 'height': height})
+                                images.append({'url': src, 'alt': img.get_attribute('alt') or '',
+                                               'width': width, 'height': height})
                         except:
-                            images.append({'url': src, 'alt': img.get_attribute('alt') or '', 'width': 'unknown', 'height': 'unknown'})
+                            images.append({'url': src, 'alt': img.get_attribute('alt') or '',
+                                           'width': 'unknown', 'height': 'unknown'})
         except:
             pass
         return images
@@ -309,7 +330,11 @@ class FacebookAdsLibraryScraper:
             for link in link_elements:
                 href = link.get_attribute('href')
                 if href and href.startswith('http'):
-                    links.append({'url': href, 'text': link.text.strip(), 'aria_label': link.get_attribute('aria-label') or ''})
+                    links.append({
+                        'url':        href,
+                        'text':       link.text.strip(),
+                        'aria_label': link.get_attribute('aria-label') or ''
+                    })
         except:
             pass
         return links
@@ -318,27 +343,62 @@ class FacebookAdsLibraryScraper:
         for link in links:
             text = link['text']
             if text and 3 < len(text) < 100:
-                skip_phrases = ['this ad', 'multiple versions', 'see ad', 'started running', 'open dropdown', 'eu transparency', 'see all', 'library id']
+                skip_phrases = ['this ad', 'multiple versions', 'see ad', 'started running',
+                                'open dropdown', 'eu transparency', 'see all', 'library id']
                 if not any(skip in text.lower() for skip in skip_phrases):
                     if '.' not in text or ' ' in text:
                         return text
         lines = [l.strip() for l in full_text.split('\n') if l.strip()]
         for line in lines[:10]:
             if 3 < len(line) < 100:
-                skip = ['active', 'library id', 'started running', 'platforms', 'see ad', 'sponsored', 'open dropdown', 'this ad']
+                skip = ['active', 'library id', 'started running', 'platforms',
+                        'see ad', 'sponsored', 'open dropdown', 'this ad']
                 if not any(s in line.lower() for s in skip):
                     return line
         return ""
 
     def extract_ad_data(self, ad_element, index):
         full_text = ad_element.text
-        ad_data = {'ad_position': index, 'full_text': full_text, 'links': [], 'images': [], 'library_id': '', 'page_name': '', 'ad_creative': '', 'destination_url': '', 'display_url': '', 'cta_button': '', 'platforms': [], 'date_info': '', 'impressions': '', 'facebook_followers': 0, 'instagram_followers': 0, 'facebook_handle': '', 'instagram_handle': '', 'advertiser_category': '', 'scraped_at': datetime.now().isoformat()}
+
+        # ── all fields, including the new ad_library_url ──────────────────
+        ad_data = {
+            'ad_position':        index,
+            'full_text':          full_text,
+            'links':              [],
+            'images':             [],
+            'library_id':         '',
+            'ad_library_url':     '',          # ← NEW
+            'page_name':          '',
+            'ad_creative':        '',
+            'destination_url':    '',
+            'display_url':        '',
+            'cta_button':         '',
+            'platforms':          [],
+            'date_info':          '',
+            'impressions':        '',
+            'facebook_followers': 0,
+            'instagram_followers':0,
+            'facebook_handle':    '',
+            'instagram_handle':   '',
+            'advertiser_category':'',
+            'scraped_at':         datetime.now().isoformat()
+        }
+
         try:
             ad_data['library_id'] = self.extract_library_id(full_text)
-            ad_data['links'] = self.extract_all_links(ad_element)
-            ad_data['images'] = self.extract_images_from_element(ad_element)
-            ad_data['page_name'] = self.extract_page_name(full_text, ad_data['links'])
+            ad_data['links']      = self.extract_all_links(ad_element)
+            ad_data['images']     = self.extract_images_from_element(ad_element)
+            ad_data['page_name']  = self.extract_page_name(full_text, ad_data['links'])
+
+            # ── build the Ads Library URL as soon as we have the ID ───────
+            ad_data['ad_library_url'] = self.extract_ad_library_url(
+                ad_data['library_id'], ad_data['links']
+            )
+            if ad_data['ad_library_url']:
+                print(f"    🔗 Library URL: {ad_data['ad_library_url']}")
+
             print(f"    🔍 Extracting social data for: {ad_data['page_name'][:30]}...")
+
             if ad_data['page_name'] in self.advertiser_cache:
                 cached = self.advertiser_cache[ad_data['page_name']]
                 ad_data.update(cached)
@@ -355,6 +415,7 @@ class FacebookAdsLibraryScraper:
                     self.close_modal()
                 else:
                     print(f"        ❌ Could not expand ad")
+
             for link in ad_data['links']:
                 url = link['url']
                 if 'facebook.com' not in url or 'l.facebook.com' in url:
@@ -364,32 +425,41 @@ class FacebookAdsLibraryScraper:
                         if domain and 'facebook.com' not in domain and 'instagram.com' not in domain:
                             ad_data['destination_url'] = real_url
                             break
+
             display_url_match = re.search(r'([A-Z0-9]+\.[A-Z]{2,})', full_text)
             if display_url_match:
                 ad_data['display_url'] = display_url_match.group(1)
-            cta_patterns = [r'(Shop [Nn]ow)', r'(Learn [Mm]ore)', r'(Get [Dd]irections)', r'(Sign [Uu]p)', r'(Buy [Nn]ow)', r'(Download)', r'(Visit [^\n]+)', r'(See [Mm]ore)', r'(Get [Ss]tarted)', r'(Install [Nn]ow)']
+
+            cta_patterns = [
+                r'(Shop [Nn]ow)', r'(Learn [Mm]ore)', r'(Get [Dd]irections)',
+                r'(Sign [Uu]p)',  r'(Buy [Nn]ow)',    r'(Download)',
+                r'(Visit [^\n]+)',r'(See [Mm]ore)',    r'(Get [Ss]tarted)',
+                r'(Install [Nn]ow)'
+            ]
             for pattern in cta_patterns:
                 cta_match = re.search(pattern, full_text)
                 if cta_match:
                     ad_data['cta_button'] = cta_match.group(1).strip()
                     break
+
             platforms = []
-            if 'facebook' in full_text.lower():
-                platforms.append('Facebook')
-            if 'instagram' in full_text.lower():
-                platforms.append('Instagram')
-            if 'messenger' in full_text.lower():
-                platforms.append('Messenger')
+            if 'facebook'  in full_text.lower(): platforms.append('Facebook')
+            if 'instagram' in full_text.lower(): platforms.append('Instagram')
+            if 'messenger' in full_text.lower(): platforms.append('Messenger')
             ad_data['platforms'] = platforms if platforms else ['Facebook']
+
             date_match = re.search(r'Started running on ([^\n]+)', full_text)
             if date_match:
                 ad_data['date_info'] = date_match.group(1).strip()
+
             impressions_match = re.search(r'([\d,]+-[\d,]+)\s*impressions', full_text, re.IGNORECASE)
             if impressions_match:
                 ad_data['impressions'] = impressions_match.group(1)
-            lines = [l.strip() for l in full_text.split('\n') if l.strip()]
+
+            lines         = [l.strip() for l in full_text.split('\n') if l.strip()]
             creative_lines = []
-            skip_keywords = ['active', 'library id', 'started running', 'platforms', 'see ad', 'sponsored', 'open dropdown', 'this ad']
+            skip_keywords  = ['active', 'library id', 'started running', 'platforms',
+                               'see ad', 'sponsored', 'open dropdown', 'this ad']
             capturing = False
             for line in lines:
                 line_lower = line.lower()
@@ -405,10 +475,12 @@ class FacebookAdsLibraryScraper:
                             break
             if creative_lines:
                 ad_data['ad_creative'] = '\n'.join(creative_lines)
+
         except Exception as e:
             print(f"    ⚠ Error: {e}")
             import traceback
             traceback.print_exc()
+
         return ad_data
 
     def scrape_ads(self, url, max_ads=100, scroll_pause=3):
@@ -419,18 +491,23 @@ class FacebookAdsLibraryScraper:
             print("📜 Scrolling...")
             self.scroll_and_expand(scroll_pause_time=scroll_pause, max_scrolls=10)
             print("🔍 Finding ads by Library ID text...")
-            library_id_elements = self.driver.find_elements(By.XPATH, "//*[contains(text(), 'Library ID:')]")
+            library_id_elements = self.driver.find_elements(
+                By.XPATH, "//*[contains(text(), 'Library ID:')]"
+            )
             print(f"Found {len(library_id_elements)} elements with 'Library ID:' text\n")
+
             ad_containers = []
             for idx, elem in enumerate(library_id_elements[:max_ads * 2], 1):
                 try:
                     best_parent = None
-                    current = elem
+                    current     = elem
                     for level in range(1, 8):
-                        current = current.find_element(By.XPATH, "..")
-                        text = current.text
+                        current  = current.find_element(By.XPATH, "..")
+                        text     = current.text
                         text_len = len(text)
-                        if ('Library ID:' in text and 'Sponsored' in text and 200 < text_len < 3000 and text.count('Library ID:') == 1):
+                        if ('Library ID:' in text and 'Sponsored' in text
+                                and 200 < text_len < 3000
+                                and text.count('Library ID:') == 1):
                             best_parent = current
                             break
                     if best_parent and best_parent not in ad_containers:
@@ -442,10 +519,12 @@ class FacebookAdsLibraryScraper:
                     if idx <= 3:
                         print(f"  ❌ Element #{idx} error: {e}")
                     continue
+
             print(f"\n✓ Found {len(ad_containers)} individual ads\n")
             if not ad_containers:
                 print("❌ No ads found")
                 return []
+
             duplicates_skipped = 0
             for i, ad in enumerate(ad_containers[:max_ads], 1):
                 try:
@@ -460,19 +539,25 @@ class FacebookAdsLibraryScraper:
                     self.ads_data.append(ad_data)
                     social_info = ""
                     if ad_data['facebook_followers'] > 0 or ad_data['instagram_followers'] > 0:
-                        social_info = f" | 📘 FB:{ad_data['facebook_followers']:,} 📸 IG:{ad_data['instagram_followers']:,}"
-                    print(f"[{i}] ✓ #{len(self.ads_data)} | ID: {ad_data['library_id']} | {ad_data['page_name'][:30]}{social_info}")
+                        social_info = (f" | 📘 FB:{ad_data['facebook_followers']:,}"
+                                       f" 📸 IG:{ad_data['instagram_followers']:,}")
+                    print(f"[{i}] ✓ #{len(self.ads_data)} | ID: {ad_data['library_id']}"
+                          f" | {ad_data['page_name'][:30]}{social_info}")
                 except Exception as e:
                     print(f"[{i}] ❌ Error: {e}")
                     continue
+
             print(f"\n✅ Extracted {len(self.ads_data)} unique ads")
             print(f"⏭️  Skipped {duplicates_skipped} duplicates")
             print(f"📊 Cached {len(self.advertiser_cache)} unique advertisers")
-            with_fb = sum(1 for ad in self.ads_data if ad['facebook_followers'] > 0)
-            with_ig = sum(1 for ad in self.ads_data if ad['instagram_followers'] > 0)
-            print(f"📘 {with_fb} ads with Facebook followers")
-            print(f"📸 {with_ig} ads with Instagram followers")
+            with_fb  = sum(1 for ad in self.ads_data if ad['facebook_followers']  > 0)
+            with_ig  = sum(1 for ad in self.ads_data if ad['instagram_followers'] > 0)
+            with_url = sum(1 for ad in self.ads_data if ad['ad_library_url'])
+            print(f"📘 {with_fb}  ads with Facebook followers")
+            print(f"📸 {with_ig}  ads with Instagram followers")
+            print(f"🔗 {with_url} ads with Library URL")
             return self.ads_data
+
         except Exception as e:
             print(f"❌ Error: {e}")
             import traceback
@@ -489,7 +574,28 @@ class FacebookAdsLibraryScraper:
             return
         flattened = []
         for ad in self.ads_data:
-            flattened.append({'ad_position': ad['ad_position'], 'library_id': ad['library_id'], 'page_name': ad['page_name'], 'facebook_followers': ad['facebook_followers'], 'instagram_followers': ad['instagram_followers'], 'facebook_handle': ad['facebook_handle'], 'instagram_handle': ad['instagram_handle'], 'advertiser_category': ad['advertiser_category'], 'ad_creative': ad['ad_creative'][:500] if ad['ad_creative'] else '', 'cta_button': ad['cta_button'], 'destination_url': ad['destination_url'], 'display_url': ad['display_url'], 'platforms': ', '.join(ad['platforms']), 'date_info': ad['date_info'], 'impressions': ad['impressions'], 'num_images': len(ad['images']), 'num_links': len(ad['links']), 'first_image_url': ad['images'][0]['url'] if ad['images'] else '', 'scraped_at': ad['scraped_at']})
+            flattened.append({
+                'ad_position':         ad['ad_position'],
+                'library_id':          ad['library_id'],
+                'ad_library_url':      ad['ad_library_url'],   # ← NEW
+                'page_name':           ad['page_name'],
+                'facebook_followers':  ad['facebook_followers'],
+                'instagram_followers': ad['instagram_followers'],
+                'facebook_handle':     ad['facebook_handle'],
+                'instagram_handle':    ad['instagram_handle'],
+                'advertiser_category': ad['advertiser_category'],
+                'ad_creative':         ad['ad_creative'][:500] if ad['ad_creative'] else '',
+                'cta_button':          ad['cta_button'],
+                'destination_url':     ad['destination_url'],
+                'display_url':         ad['display_url'],
+                'platforms':           ', '.join(ad['platforms']),
+                'date_info':           ad['date_info'],
+                'impressions':         ad['impressions'],
+                'num_images':          len(ad['images']),
+                'num_links':           len(ad['links']),
+                'first_image_url':     ad['images'][0]['url'] if ad['images'] else '',
+                'scraped_at':          ad['scraped_at']
+            })
         df = pd.DataFrame(flattened)
         df.to_csv(filename, index=False)
         print(f"💾 Saved {filename}")
@@ -499,33 +605,36 @@ class FacebookAdsLibraryScraper:
             f.write("=" * 100 + "\n")
             f.write("FACEBOOK ADS LIBRARY - SCRAPING REPORT (WITH SOCIAL FOLLOWING)\n")
             f.write("=" * 100 + "\n\n")
-            f.write(f"Total Ads: {len(self.ads_data)}\n")
-            f.write(f"Scraped: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"With Library ID: {sum(1 for ad in self.ads_data if ad['library_id'])}\n")
-            f.write(f"With Images: {sum(1 for ad in self.ads_data if ad['images'])}\n")
-            f.write(f"With URL: {sum(1 for ad in self.ads_data if ad['destination_url'])}\n")
-            f.write(f"With Facebook Followers: {sum(1 for ad in self.ads_data if ad['facebook_followers'] > 0)}\n")
+            f.write(f"Total Ads:                {len(self.ads_data)}\n")
+            f.write(f"Scraped:                  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"With Library ID:          {sum(1 for ad in self.ads_data if ad['library_id'])}\n")
+            f.write(f"With Library URL:         {sum(1 for ad in self.ads_data if ad['ad_library_url'])}\n")  # ← NEW
+            f.write(f"With Images:              {sum(1 for ad in self.ads_data if ad['images'])}\n")
+            f.write(f"With URL:                 {sum(1 for ad in self.ads_data if ad['destination_url'])}\n")
+            f.write(f"With Facebook Followers:  {sum(1 for ad in self.ads_data if ad['facebook_followers'] > 0)}\n")
             f.write(f"With Instagram Followers: {sum(1 for ad in self.ads_data if ad['instagram_followers'] > 0)}\n\n")
             f.write("=" * 100 + "\n\n")
+
             for i, ad in enumerate(self.ads_data, 1):
                 f.write(f"\n{'='*100}\n")
                 f.write(f"AD #{i}\n")
                 f.write(f"{'='*100}\n\n")
-                f.write(f"Library ID: {ad['library_id']}\n")
-                f.write(f"Page: {ad['page_name']}\n")
+                f.write(f"Library ID:      {ad['library_id']}\n")
+                f.write(f"Ad Library URL:  {ad['ad_library_url']}\n")   # ← NEW
+                f.write(f"Page:            {ad['page_name']}\n")
                 f.write(f"\n--- SOCIAL FOLLOWING ---\n")
-                f.write(f"Facebook: {ad['facebook_handle']} - {ad['facebook_followers']:,} followers\n")
+                f.write(f"Facebook:  {ad['facebook_handle']} - {ad['facebook_followers']:,} followers\n")
                 f.write(f"Instagram: {ad['instagram_handle']} - {ad['instagram_followers']:,} followers\n")
-                f.write(f"Category: {ad['advertiser_category']}\n")
+                f.write(f"Category:  {ad['advertiser_category']}\n")
                 f.write(f"------------------------\n\n")
-                f.write(f"Date: {ad['date_info']}\n")
-                f.write(f"Platforms: {', '.join(ad['platforms'])}\n")
-                f.write(f"CTA: {ad['cta_button']}\n")
+                f.write(f"Date:            {ad['date_info']}\n")
+                f.write(f"Platforms:       {', '.join(ad['platforms'])}\n")
+                f.write(f"CTA:             {ad['cta_button']}\n")
                 f.write(f"Destination URL: {ad['destination_url']}\n")
-                f.write(f"Display URL: {ad['display_url']}\n")
-                f.write(f"Impressions: {ad['impressions']}\n")
-                f.write(f"Images: {len(ad['images'])}\n")
-                f.write(f"Links: {len(ad['links'])}\n\n")
+                f.write(f"Display URL:     {ad['display_url']}\n")
+                f.write(f"Impressions:     {ad['impressions']}\n")
+                f.write(f"Images:          {len(ad['images'])}\n")
+                f.write(f"Links:           {len(ad['links'])}\n\n")
                 if ad['ad_creative']:
                     f.write("Ad Creative:\n")
                     f.write(ad['ad_creative'] + "\n\n")
@@ -542,13 +651,17 @@ class FacebookAdsLibraryScraper:
 
 
 if __name__ == "__main__":
-    url = "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=watches&search_type=keyword_unordered"
+    url = ("https://www.facebook.com/ads/library/"
+           "?active_status=active&ad_type=all&country=US"
+           "&q=watches&search_type=keyword_unordered")
+
     print("\n" + "=" * 80)
     print("FACEBOOK ADS SCRAPER - FINAL VERSION")
     print("=" * 80 + "\n")
+
     scraper = FacebookAdsLibraryScraper(headless=False, ad_type="all")
     try:
-        ads = scraper.scrape_ads(url=url, max_ads =50, scroll_pause=3)
+        ads = scraper.scrape_ads(url=url, max_ads=10, scroll_pause=3)
         if ads:
             scraper.save_to_json('facebook_ads_complete.json')
             scraper.save_to_csv('facebook_ads_complete.csv')
@@ -556,13 +669,14 @@ if __name__ == "__main__":
             print("\n" + "=" * 80)
             print("SUCCESS!")
             print("=" * 80)
-            print(f"✓ Total ads: {len(ads)}")
-            print(f"✓ With Library ID: {sum(1 for ad in ads if ad['library_id'])}")
-            print(f"✓ With images: {sum(1 for ad in ads if ad['images'])}")
-            print(f"✓ With URL: {sum(1 for ad in ads if ad['destination_url'])}")
-            print(f"✓ With CTA: {sum(1 for ad in ads if ad['cta_button'])}")
+            print(f"✓ Total ads:               {len(ads)}")
+            print(f"✓ With Library ID:         {sum(1 for ad in ads if ad['library_id'])}")
+            print(f"✓ With Library URL:        {sum(1 for ad in ads if ad['ad_library_url'])}")
+            print(f"✓ With images:             {sum(1 for ad in ads if ad['images'])}")
+            print(f"✓ With destination URL:    {sum(1 for ad in ads if ad['destination_url'])}")
+            print(f"✓ With CTA:                {sum(1 for ad in ads if ad['cta_button'])}")
             print(f"✓ With Facebook followers: {sum(1 for ad in ads if ad['facebook_followers'] > 0)}")
-            print(f"✓ With Instagram followers: {sum(1 for ad in ads if ad['instagram_followers'] > 0)}")
+            print(f"✓ With Instagram followers:{sum(1 for ad in ads if ad['instagram_followers'] > 0)}")
             print("=" * 80 + "\n")
     except KeyboardInterrupt:
         print("\n⚠️  Stopped by user")
